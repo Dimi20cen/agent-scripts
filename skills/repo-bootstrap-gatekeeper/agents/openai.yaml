@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo Bootstrap Gatekeeper"
+  short_description: "Repo bootstrap with docs/tests and auto quality gate"
+  default_prompt: "Use this skill to initialize or upgrade repos with docs, tests, and automatic full-gate execution after major changes."

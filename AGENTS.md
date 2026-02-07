@@ -3,9 +3,15 @@
 Dimy owns this repo.
 Work style: telegraph, minimal tokens.
 
+## Canonical Instruction Home
+
+- Keep all agent instructions/guides in this repo.
+- Canonical skill path (in repo): `~/Projects/agent-scripts/skills/repo-bootstrap-gatekeeper`.
+- Runtime compatibility path points here via symlink: `~/.codex/skills/repo-bootstrap-gatekeeper`.
+
 ## Delegation
 
-- For repo bootstrap discipline (docs/tests/full gate/CI), use global skill: `~/.codex/skills/repo-bootstrap-gatekeeper`.
+- For repo bootstrap discipline (docs/tests/full gate/CI), use skill: `~/Projects/agent-scripts/skills/repo-bootstrap-gatekeeper`.
 - Apply it when creating repos, scaffolding projects, or upgrading quality workflow.
 
 ## Local Protocol
