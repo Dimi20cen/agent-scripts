@@ -1,5 +1,25 @@
 # Changes
 
+## 2026-02-14
+
+- Finalized AGENTS-only mode by removing `skills/` from the repository.
+- Removed global compatibility artifacts from `~/.codex/skills/` (`repo-bootstrap-gatekeeper` symlink and backup folder).
+- Updated docs to remove current-state references to optional skill wrappers.
+- Added explicit AGENTS value statements favoring stable/tested technology choices over trends.
+- Expanded gate contract with explicit `secrets` and `dependencies` checks.
+- Affected files: `AGENTS.md`, `README.md`, `docs/changes.md`.
+- Migration notes: canonical instructions now live only in `AGENTS.md`.
+- Validation: verified `~/.codex/skills/` cleanup and local repository layout.
+
+## 2026-02-13
+
+- Simplified repository to AGENTS-first guidance with core bootstrap policy embedded directly in `AGENTS.md`.
+- Reworked `README.md` to pointer-style usage and minimal layout documentation.
+- Flattened `skills/repo-bootstrap-gatekeeper` by keeping only `SKILL.md`; removed `agents/`, `assets/github-actions/`, and `references/`.
+- Affected files: `AGENTS.md`, `README.md`, `docs/changes.md`, `skills/repo-bootstrap-gatekeeper/SKILL.md`.
+- Migration notes: use `AGENTS.md` as canonical policy source; keep skill wrapper optional.
+- Validation: local path/layout verification and git diff review.
+
 ## 2026-02-07
 
 - Added global skill delegation in `AGENTS.md` to enforce repo bootstrap quality rules.
